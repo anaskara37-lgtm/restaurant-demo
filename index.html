@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>مطعم النخيل</title>
+<style>
+:root{--main:#B5651D;--dark:#7A3E0F;--gold:#E8A857;--text:#3B2A1A}
+*{box-sizing:border-box}
+body{
+  margin:0;font-family:system-ui,Arial,sans-serif;color:var(--text);
+  background:
+    radial-gradient(circle at 15% 10%,rgba(255,214,150,.45),transparent 40%),
+    radial-gradient(circle at 85% 90%,rgba(181,101,29,.28),transparent 45%),
+    repeating-conic-gradient(#FFF4E2 0 25%,#FBE3BD 0 50%) 0 0/44px 44px;
+  background-attachment:fixed;
+}
+header{
+  text-align:center;color:#fff;padding:48px 16px 40px;
+  background:
+    radial-gradient(circle at 25% 20%,rgba(255,255,255,.22),transparent 45%),
+    linear-gradient(135deg,var(--dark),var(--main) 55%,var(--gold));
+  border-bottom:5px solid var(--gold);
+  box-shadow:0 6px 20px rgba(60,30,5,.35);
+}
+header h1{margin:0 0 8px;font-size:2.1rem;text-shadow:0 2px 8px rgba(0,0,0,.35)}
+header p{margin:0;opacity:.95}
+section{padding:20px 16px;max-width:600px;margin:auto}
+h2{display:inline-block;border-bottom:3px solid var(--gold);padding-bottom:4px;color:var(--dark)}
+.item{
+  display:flex;justify-content:space-between;align-items:center;
+  background:rgba(255,255,255,.82);border:1px solid rgba(181,101,29,.25);
+  border-radius:14px;padding:14px;margin:10px 0;
+  box-shadow:0 4px 12px rgba(90,50,10,.12);
+  backdrop-filter:blur(6px);
+}
+.item b{display:block}
+.item small{color:#7a6a5a}
+.price{font-weight:bold;color:var(--main);white-space:nowrap}
+.wa{display:block;background:linear-gradient(135deg,#25D366,#128C7E);color:#fff;text-align:center;text-decoration:none;font-weight:bold;padding:14px;border-radius:14px;margin:20px 0;box-shadow:0 6px 16px rgba(18,140,126,.4)}
+footer{text-align:center;padding:20px;color:#6b5a4a;font-size:.9rem}
+</style>
+</head>
+<body>
+<header>
+  <h1>🌴 مطعم النخيل</h1>
+  <p>أكل مغربي تقليدي، بنين وبسعر مناسب</p>
+</header>
+
+<section>
+  <h2>🍽️ قائمة الطعام</h2>
+  <div class="item"><div><b>طاجين الدجاج</b><small>بالزيتون والليمون</small></div><span class="price">45 د.م.</span></div>
+  <div class="item"><div><b>كسكس الجمعة</b><small>بالخضر واللحم</small></div><span class="price">55 د.م.</span></div>
+  <div class="item"><div><b>بسطيلة</b><small>بالدجاج واللوز</small></div><span class="price">40 د.م.</span></div>
+  <div class="item"><div><b>الشاي بالنعناع</b><small>كأس</small></div><span class="price">8 د.م.</span></div>
+</section>
+
+<section>
+  <h2>🕒 أوقات العمل</h2>
+  <p>كل يوم من 12:00 حتى 23:00</p>
+  <a class="wa" href="https://wa.me/212600000000">📲 احجز عبر واتساب</a>
+</section>
+
+<footer>هادا موقع نموذجي. الاسم والأسعار والرقم كلهم وهميين.</footer>
+</body>
+</html>
